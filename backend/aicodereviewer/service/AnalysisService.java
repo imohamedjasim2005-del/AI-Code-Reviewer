@@ -1,5 +1,8 @@
-package backend.aicodereviewer.service;
+package com.aicodereviewer.service;
 
-public class AnalysisService {
-    
+import com.aicodereviewer.dto.AnalysisResponseDTO;
+
+public interface AnalysisService {
+
+    AnalysisResponseDTO analyze(Long fileId);
 }

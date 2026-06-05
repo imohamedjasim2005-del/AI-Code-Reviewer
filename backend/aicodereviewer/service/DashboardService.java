@@ -1,5 +1,8 @@
-package backend.aicodereviewer.service;
+package com.aicodereviewer.service;
 
-public class DashboardService {
-    
+import java.util.Map;
+
+public interface DashboardService {
+
+    Map<String, Object> getDashboard();
 }
